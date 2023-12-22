@@ -7,7 +7,7 @@ const item = ({item}) => {
   return (
     <li className={styles.directory_item}>
 
-      <h4>{item.title}</h2>
+      <h4>{item.title}</h4>
 
       <Link to={`/main/${item.title}`}>
         <button>
