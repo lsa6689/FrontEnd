@@ -1,0 +1,21 @@
+.container {
+  display: block;
+  background-color: #32353d;
+  width: 20%;
+  height: 100vh;
+  resize: horizontal;
+  overflow: auto;
+  float: left;
+}
+
+.folder_name_area {
+  height: 35px;
+  background-color: #858eaa;
+  padding-left: 10px;
+  align-items: center;
+  color: white;
+}
+// h4 {
+//   color: white;
+//   // padding: 5px;
+// }

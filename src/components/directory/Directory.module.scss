@@ -1,0 +1,35 @@
+.directory {
+  position: relative;
+  height: 100vh;
+  background-color: rgb(37, 38, 41);
+  float: right;
+  width: 80%;
+}
+.container {
+  hr{
+    width: 90%;
+    opacity: 0.3;
+  }
+}
+
+.note__title {
+  padding: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  h1{
+    color: white;
+  }
+  button{
+    border-radius: 8px;
+    width: 45px;
+    height: 40px;
+    background-color: #4E84C1;
+    color: white;
+    font-size: 25px;
+  }
+}
